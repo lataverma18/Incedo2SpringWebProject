@@ -13,6 +13,7 @@ public class EmployeeRepository {
 		emps.add(new Employee(103,"Reena",68000));
 		emps.add(new Employee(104,"Ramika",78000));
 		emps.add(new Employee(105,"Rita",65000));
+		emps.add(new Employee(106,"Swa",55000));
 	}
 	public List<Employee> getAllEmployees()
 	{
