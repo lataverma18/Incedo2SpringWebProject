@@ -1,0 +1,15 @@
+package incedo.coreproject.abstractinterfaces;
+
+public class Laptop implements Button {
+
+	@Override
+	public void on() {
+		System.out.println("Laptop is switched On");
+		
+	}
+
+	@Override
+	public void off() {
+		System.out.println("Laptop is switched Off");
+	}
+}
