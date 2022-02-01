@@ -5,7 +5,7 @@ private void get()
 {
 	System.out.println("get()");
 }
-void put()
+void put() 
 {
 	System.out.println("put()");
 }
