@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    ">
+    
+   <context:annotation-config></context:annotation-config>
+   <context:component-scan base-package="com.springcore.beans"></context:component-scan>
+   
+ <!--     
+<bean id="emp1" class="com.springcore.beans.Employee" autowire="byName" scope="singleton" init-method="myInitMethod" destroy-method="myDestroy">
+	 Setter Injection 
+	<property name="empId" value="101"></property>			
+	<property name="empName" value="Ronit"></property>
+	 <property name="address" ref="ad1"></property>  
+	
+	 Constructor Injection 
+	 <constructor-arg name="empId" value="101"></constructor-arg>
+	 <constructor-arg name="empName" value="Ronit"></constructor-arg>
+	<constructor-arg name="address" ref="ad1"></constructor-arg>     	Object/Reference Injection 
+		 
+</bean>-->
+ <!-- 
+<bean id="address" class="com.springcore.beans.Address">
+	<property name="address" value="B-202,MC"></property>
+	<property name="city" value="Delhi"></property>
+	<property name="state" value="Delhi/NCR"></property>
+	<property name="zipcode" value="110011"></property>  
+</bean>
+<bean id="ad2" class="com.springcore.beans.Address">
+	<property name="address" value="E-1405,SC"></property>
+	<property name="city" value="Faridabad"></property>
+	<property name="state" value="Delhi/NCR"></property>
+	<property name="zipcode" value="121001"></property>  
+</bean>
+ -->    
+</beans>
